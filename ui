@@ -1,0 +1,19 @@
+import numpy as np
+print(np.__version__)
+a = np.array([[1, 2, 3] , [3, 4, 5]] , dtype = float)
+print(type(a))
+a = np.delete(a, 0, 1)
+print(a)
+b = np.arange(1,16)
+print(b)
+
+
+
+
+
+
+
+
+
+
+
